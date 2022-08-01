@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::before {
+  content: '';
+  height: 436px;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  background: #535971;
+
+  display: block;
+}
+
+body {
+  background: #EFEFEF;
+  font-family: 'Staatliches';
+}
+
+.page {
+  width: 750px;
+
+  margin: auto;
+  padding-top: 140px;
+}
+
+header h1 {
+  font-family: 'Staatliches';
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 400;
+
+  color: #FFFFFF;
+}
+
+header p {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+
+  margin: 18px 0 58px;
+
+  color: #FFFFFF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  background: #FFFFFF;
+
+  border-radius: 20px 20px 0px 0px;
+
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+
+  padding-bottom: 8px;
+  margin: 30px 0 16px;
+
+  border-bottom: 1px solid #E6E6F0;
+}
+
+.fieldset-wrapper {
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  gap: 22px;
+
+  padding-top: 20px;
+}
+
+label {
+  padding: 16px 0 8px;
+
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4E4958;
+}
+
+.input-wrapper input {
+  background: #E6E6F0;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  height: 56px;
+}
+
+.input-wrapper span {
+  color: #C1BCCC;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+.sub-title {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+
+}
+
+.sub-title {
+  border: none;
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #535971;
+
+  padding-bottom: 0px;
+  margin: 16px 0 0;
+}
+
+fieldset .date {
+  display: flex;
+
+  padding-top: 8px;
+}
+
+fieldset .fieldset-wrapper .date .input-wrapper label {
+  padding-top: 0px;
+}
+
+#form-date {
+  margin-right: 32px;
+
+  width: 300px;
+  padding: 0 24px;
+}
+
+#form-start {
+  margin-right: 10px;
+
+  padding: 0 24px;
+}
+
+#form-end {
+  padding: 0 24px;
+}
+
+footer {
+  background: #535971;
+
+  width: 750px;
+  height: 150px;
+
+  margin: 0 auto 366px;
+
+  border-radius: 0px 0px 20px 20px;
+
+  display: flex;
+
+}
+
+button {
+  background: #FF5374;
+
+  width: 608px;
+  height: 56px;
+
+  border-radius: 20px;
+  border: none;
+
+  margin: auto;
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+input:valid {
+  border: 1px solid red;
+}
+
+input {
+  padding-left: 20px;
+}
