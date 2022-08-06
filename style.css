@@ -211,6 +211,11 @@ button {
   color: #FFFFFF;
 }
 
+button:hover {
+  background: #c93653;
+  transition: 300ms;
+}
+
 input:valid {
   border: 1px solid red;
 }
